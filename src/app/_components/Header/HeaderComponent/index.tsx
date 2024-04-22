@@ -8,7 +8,6 @@ import { Gutter } from '../../Gutter';
 import { HeaderNav } from '../Nav';
 import { noHeaderFooterUrls } from '../../../constants';
 import { usePathname } from 'next/navigation';
-import MobileNav from '../MobileNav';
 import classes from './index.module.scss';
 
 const HeaderComponent = ({ header }: { header: Header }) => {
